@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.local
+
+# Environment files (secret keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# Misc
+*.pem
+
+# Vite
+dist-ssr/
+*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# claude related
+.claude/
+
+# Portfolio parent folder reference (not needed)
+../
+
+# Public images (optional - uncomment if you don't want to commit images)
+# public/*.png
+# public/*.jpg
+# public/*.jpeg
+# public/*.gif
+# public/*.svg
